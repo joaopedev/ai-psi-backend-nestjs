@@ -25,7 +25,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       synchronize: true,
       logging: true,
       ssl: {
-        rejectUnauthorized: true,
+        rejectUnauthorized: false,
       },
     }),
     AgentsModule,  
