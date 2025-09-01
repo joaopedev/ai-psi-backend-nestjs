@@ -6,7 +6,7 @@ async function bootstrap() {
   app.enableCors({
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
-    origin:'https://frontend-ai-psi-al.vercel.app/chat' ,
+    origin:'https://frontend-ai-psi-al.vercel.app' ,
   });
   await app.listen(process.env.PORT ?? 3005);
 }
