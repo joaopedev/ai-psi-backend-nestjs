@@ -28,7 +28,7 @@ export class MetaapiService {
           { role: 'user', content: prompt },
         ],
         temperature,
-        max_tokens: 500,
+        max_tokens: 1200,
       },
       {
         headers: {
