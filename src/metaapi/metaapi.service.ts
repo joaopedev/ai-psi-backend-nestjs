@@ -22,7 +22,7 @@ export class MetaapiService {
     const res = await axios.post(
       'https://api.openai.com/v1/chat/completions',
       {
-        model: 'gpt-3.5-turbo', // ou gpt-4o-mini (mais rápido e barato)
+        model: 'gpt-4o-mini', // ou gpt-4o-mini (mais rápido e barato)
         messages: [
           { role: 'system', content: 'Você é um assistente útil.' },
           { role: 'user', content: prompt },
